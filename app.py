@@ -8,4 +8,7 @@ def home():
     #client id and api_key
     newsapi = NewsApiClient(api_key="c912ed1962e542bb8529a76ce984add9")
 
+    #adds top headlines from news api
+    top_headlines = newsapi.get_top_headlines(sources = 'cnn')
+
     
