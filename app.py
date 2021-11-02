@@ -14,4 +14,11 @@ def home():
     #gets all of the main articles
     t_articles = top_headlines['articles']
 
-    
+
+    #makes a list of contents in which we will store the values
+    news = []
+    dets = []
+    img = []
+    p_date = []
+    url = []
+
