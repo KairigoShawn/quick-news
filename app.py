@@ -11,4 +11,7 @@ def home():
     #adds top headlines from news api
     top_headlines = newsapi.get_top_headlines(sources = 'cnn')
 
+    #gets all of the main articles
+    t_articles = top_headlines['articles']
+
     
