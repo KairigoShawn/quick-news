@@ -36,4 +36,7 @@ def home():
       contents = zip(news,dets,img,p_date,url)
 
 
-    
+    return render_template('home.html',contents=contents)
+
+if __name__ =='__main__':
+    app.run(debug=True)
