@@ -22,3 +22,8 @@ def home():
     p_date = []
     url = []
 
+    #gets all of the contents of the articles using for loop
+    for i in range(len(t_articles)):
+      main_article = t_articles[i]
+
+      
